@@ -2,6 +2,8 @@
 
 ### Project Overview:
 In this project I utilized a honey VM in Azure, exposed to the internet to attract threat actors. The Powershell script included in this repository parses Windows Event Log information for failed RDP attacks and uses a third-party IP Geolocation API to collect geographic information about the attacker's location.
+
+For a more depth step by step blog, visit: https://github.com/LouisXB/LouisXB.github.io/blob/main/_posts/2023-11-17-cloud-security-analyst.md
 </b>
 <br />
 <br />
