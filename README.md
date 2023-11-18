@@ -27,6 +27,7 @@ Azure Sentinel (SIEM) is connected to the live honeypot virtual machine. This al
 
 - <b>Azure Sentinel:</b> Ingesting log information, mapping location information, and creating alerts
 ![sentinel mapping](https://github.com/LouisXB/Cloud-Security-Sentinel-Lab/assets/115196076/3729b777-0196-43fc-97ab-337c896488d0)
+Map shows 88 attacks in Singapore within 3 minutes of running
 
 - <b>Azure VM:</b> Acted as a Honeypot to attackers across the globe allowing use to capture Brute Force RDP login attempts
 - <b>Azure Log Analytics:</b> Took log information from a failed_rdp.log file created within the VM and created a custom MMA-based log where we were able to extract raw data 
