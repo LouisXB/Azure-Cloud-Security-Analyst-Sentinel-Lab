@@ -1,7 +1,7 @@
 # Cloud-Security-Sentinel-Lab
 
 ### Project Overview:
-In this project I utilized a honey VM in Azure, exposed to the internet to attract threat actors. The Powershell script included in this repository parses Windows Event Log information for failed RDP attacks and uses a third-party IP Geolocation API to collect geographic information about the attacker's location.
+In this project I utilized a honeypot VM in Azure, exposed to the internet to attract threat actors. The Powershell script included in this repository parses Windows Event Log information for failed RDP attempts and uses a third-party IP Geolocation API to collect geographic information about the attacker's location.
 
 For a more depth step by step blog, visit: https://github.com/LouisXB/LouisXB.github.io/blob/main/_posts/2023-11-17-cloud-security-analyst.md
 </b>
@@ -13,7 +13,7 @@ Azure Sentinel (SIEM) is connected to the live honeypot virtual machine. This al
 <br />
 <h2>Languages Used</h2>
 
-- <b>PowerShell:</b> Extract RDP failed logon Windows Event Viewer and add Geolocation using an API
+- <b>PowerShell:</b> Extract RDP failed logon attempts from Windows Event Viewer and add Geolocation using an API
 
 ### Running the Custom Powershell log in the Virtual Machine
 ![custom_log](https://github.com/LouisXB/Cloud-Security-Sentinel-Lab/assets/115196076/404879d9-f678-4b26-96bf-dd2bf486bdc0)
