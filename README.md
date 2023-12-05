@@ -1,4 +1,4 @@
-# Cloud-Security-Sentinel-Lab
+# Cloud-Security-Analyst-Sentinel-Lab
 
 ### Project Overview:
 In this project I utilized a honeypot VM in Azure, exposed to the internet to attract threat actors. The Powershell script included in this repository parses Windows Event Log information for failed RDP attempts and uses a third-party IP Geolocation API to collect geographic information about the attacker's location.
